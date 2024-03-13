@@ -169,6 +169,7 @@
     width: 9rem;
     font-size: 1rem;
   }
+  
 }
 @media screen and (max-width: 528px) {
   .prof .prof-skills {
@@ -258,7 +259,7 @@
   }
   .home .mypic {
     height: 400px;
-    width: 400px;
+    width: 300px;
   }
   .nav-bar {
     padding: 0rem;
