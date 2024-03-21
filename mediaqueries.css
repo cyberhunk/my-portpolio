@@ -1,7 +1,13 @@
 /* Original styles */
+@media screen and (min-width: 200px) and (max-width: 1115px) {
+  *{
+    background-color: #000000;
+  }
+}
 
 /* Adjustments for smaller screens */
 @media screen and (max-width: 1115px) {
+ 
   .nav-bar .nav-list {
     width: 50%;
   }
@@ -141,6 +147,7 @@
 @media screen and (max-width: 670px) {
   .home {
     height: 1300px;
+    margin-top: 2rem;
   }
   .home .home-content {
     margin-bottom: 0rem;
@@ -153,6 +160,15 @@
   }
   .nav-bar .hamburg-menu {
     display: block;
+  }
+  .home .mypic img {
+    margin-top: 0.9rem;
+    height: 380px;
+    width: 350px;
+    
+  }
+  .project{
+    margin-top: 0rem;
   }
 }
 @media screen and (max-width: 593px) {
@@ -225,7 +241,7 @@
   }
   .home .mypic {
     height: 500px;
-    width: 500px;
+    width: 300px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -249,7 +265,8 @@
     font-size: 0.8rem;
   }
 }
-@media screen and (max-width: 370px) {
+
+@media screen and (max-width: 370px ) {
   .home {
     height: 1000px;
     margin-top: 2rem;
@@ -259,7 +276,7 @@
   }
   .home .mypic {
     height: 400px;
-    width: 300px;
+    width: 250px;
   }
   .nav-bar {
     padding: 0rem;
@@ -281,6 +298,50 @@
   }
   .project {
     margin: 1rem;
+  }
+  .skill-name {
+    font-size: 0.8rem;
+  }
+ 
+}
+
+@media screen and (max-width: 370px )  {
+  .home {
+    height: 1000px;
+    margin-top: 20rem;
+  }
+  .about{
+    margin-top: 11rem;
+  }
+  .prof .prof-skills {
+    width: 100%;
+  }
+  .home .mypic img {
+    height: 400px;
+    width: 300px;
+    
+  }
+  .nav-bar {
+    padding: 0rem;
+  }
+  .skills {
+    height: 1500px;
+  }
+  .prof .outer-circle {
+    height: 10rem;
+    width: 10rem;
+  }
+  .prof .inner-circle {
+    height: 8rem;
+    width: 8rem;
+    margin: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .project {
+    margin: 1rem;
+    margin-top: -19rem;
   }
   .skill-name {
     font-size: 0.8rem;
