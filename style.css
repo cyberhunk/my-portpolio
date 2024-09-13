@@ -152,7 +152,7 @@ a:hover {
 .home-content .text-3 .sec-text {
   color: red;
   font-weight: bold;
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 .sec-text::before {
@@ -596,6 +596,7 @@ button:hover {
   display: flex;
   align-items: center;
   gap: 1rem;
+  /* scroll-behavior: smooth;  */
 }
 
 .proj-img {
@@ -670,18 +671,35 @@ button:hover {
   box-shadow: 0px 0px 40px aqua;
 }
 
-#prev-btn,
-#next-btn {
+#left-prev-btn {
   height: 50px;
   width: 50px;
   color: white;
-  box-shadow: 0px 0px 20px aqua;
+  box-shadow: 0px 0px 10px aqua;
   background-color: black;
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
   cursor: pointer;
   position: absolute;
+  left: -5%;
+  top: 50%;
+  /* Vertically center the arrows */
+  transform: translateY(-50%);
+  z-index: 1;
+}
+#right-prev-btn {
+  height: 50px;
+  width: 50px;
+  color: white;
+  box-shadow: 0px 0px 10px aqua;
+  background-color: black;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  right: -5%;
   top: 50%;
   /* Vertically center the arrows */
   transform: translateY(-50%);
