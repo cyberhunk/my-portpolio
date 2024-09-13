@@ -1,15 +1,14 @@
 /* Original styles */
 @media screen and (min-width: 200px) and (max-width: 1115px) {
-  *{
+  * {
     background-color: #000000;
   }
 }
 
 /* Adjustments for smaller screens */
 @media screen and (max-width: 1115px) {
- 
   .nav-bar .nav-list {
-    width: 50%;
+    width: 60%;
   }
   .home .mypic {
     width: 700px;
@@ -41,9 +40,8 @@
     height: auto;
     width: auto;
   }
-  .home .mypic img{
-    margin-top:15vh;
-    
+  .home .mypic img {
+    margin-top: 15vh;
   }
   .about .about-content {
     padding: 1.5rem;
@@ -120,7 +118,7 @@
     width: 80%;
   }
   .nav-bar .nav-list {
-    width: 60%;
+    width: 80%;
   }
   .skills {
     height: 1100px;
@@ -165,9 +163,8 @@
     margin-top: 0.9rem;
     height: 380px;
     width: 350px;
-    
   }
-  .project{
+  .project {
     margin-top: 0rem;
   }
 }
@@ -185,7 +182,6 @@
     width: 9rem;
     font-size: 1rem;
   }
-  
 }
 @media screen and (max-width: 528px) {
   .prof .prof-skills {
@@ -266,7 +262,7 @@
   }
 }
 
-@media screen and (max-width: 370px ) {
+@media screen and (max-width: 370px) {
   .home {
     height: 1000px;
     margin-top: 2rem;
@@ -302,15 +298,14 @@
   .skill-name {
     font-size: 0.8rem;
   }
- 
 }
 
-@media screen and (max-width: 370px )  {
+@media screen and (max-width: 370px) {
   .home {
     height: 1000px;
     margin-top: 20rem;
   }
-  .about{
+  .about {
     margin-top: 11rem;
   }
   .prof .prof-skills {
@@ -319,7 +314,6 @@
   .home .mypic img {
     height: 400px;
     width: 300px;
-    
   }
   .nav-bar {
     padding: 0rem;

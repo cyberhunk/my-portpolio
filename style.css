@@ -33,12 +33,11 @@ body {
 }
 
 .nav-list {
-  width: 35%;
+  width: 55%;
   display: flex;
   overflow-x: hidden;
-  justify-content: space-evenly;
+  justify-content: space-between;
   list-style-type: none;
-
 }
 
 .ham-list-container {
@@ -63,14 +62,12 @@ body {
   transition: left 0.3s ease;
   z-index: 100;
   /* filter: blur(22px); */
-
 }
 
 .ham-list li {
   font-size: 2rem;
   margin: 2rem;
- /* z-index: ; */
-
+  /* z-index: ; */
 }
 
 .display {
@@ -95,12 +92,8 @@ a:hover {
 
 #logo {
   color: white;
-  /* padding-left: 1.5rem;   */
-  /* margin-top: -13rem; */
   z-index: 100;
-
 }
-
 
 .home {
   height: 100vh;
@@ -119,21 +112,13 @@ a:hover {
   display: flex;
   justify-content: center;
   text-align: center;
-
-
-
-
 }
 
 .home .mypic img {
   border: 2px solid aqua;
   border: width 2rem;
-  ;
   box-shadow: 2px 2px 5px aqua, 2px -2px 5px aqua, -2px 2px 5px aqua,
     -2px -2px 5px aqua;
-
-
-
 }
 
 .home-content {
@@ -183,7 +168,6 @@ a:hover {
 }
 
 @keyframes animate {
-
   40%,
   60% {
     left: 100%;
@@ -595,8 +579,6 @@ button:hover {
   text-align: center;
   margin: 3rem;
   margin-top: 9rem;
-
-
 }
 
 .proj-list-container {
@@ -604,7 +586,6 @@ button:hover {
   margin: auto;
   margin-top: 3rem;
   position: relative;
-
 }
 
 .project-list {
@@ -771,7 +752,6 @@ input {
 .contact {
   scroll-margin-top: 40px;
 }
-
 
 .social-icons {
   display: flex;
