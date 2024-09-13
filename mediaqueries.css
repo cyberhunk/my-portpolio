@@ -193,6 +193,22 @@
     width: 40px;
     line-height: 40px;
   }
+  #left-prev-btn {
+    left: -13%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #right-prev-btn {
+    right: -13%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .prof .outer-circle {
     height: 8rem;
     width: 8rem;

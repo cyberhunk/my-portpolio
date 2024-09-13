@@ -73,12 +73,12 @@ function updateButtonVisibility() {
   if (scrollAmount <= 0) {
     prevBtn.style.color = "aqua";
   } else {
-    prevBtn.style.display = "block";
+    prevBtn.style.color = "gray";
   }
   if (scrollAmount >= projList.scrollWidth - projList.clientWidth) {
     nextBtn.style.color = "aqua";
   } else {
-    nextBtn.style.display = "block";
+    nextBtn.style.color = "gray";
   }
 }
 
